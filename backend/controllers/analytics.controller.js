@@ -10,7 +10,7 @@ export const getAnalyticsData = async () => {
 		{
 			$group: {
 				_id: null, // it groups all documents together,
-				totalSales: { $sum: 1 },
+				totalSales: { sum: 1 },
 				totalRevenue: { $sum: "$totalAmount" },
 			},
 		},
@@ -41,7 +41,7 @@ export const getDailySalesData = async (startDate, endDate) => {
 				$group: {
 					_id: { $dateToString: { format: "%Y-%m-%d", date: "$createdAt" } },
 					sales: { $sum: 1 },
-					revenue: { $sum: "$totalAmount" },
+					revenue: { $sum: "₹totalAmount" },
 				},
 			},
 			{ $sort: { _id: 1 } },

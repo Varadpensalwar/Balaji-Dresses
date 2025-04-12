@@ -34,12 +34,12 @@ const CartItem = ({ item }) => {
           </div>
 
           <div className="text-end md:order-4 md:w-32">
-            <p className="text-base font-bold text-amber-300">${item.price}</p>
+            <p className="text-base font-bold text-amber-200">₹{item.price}</p>
           </div>
         </div>
 
         <div className="w-full min-w-0 flex-1 space-y-4 md:order-2 md:max-w-md">
-          <p className="text-base font-medium text-white hover:text-amber-300 hover:underline">
+          <p className="text-base font-medium text-white hover:text-amber-200 hover:underline">
             {item.name}
           </p>
           <p className="text-sm text-gray-400">{item.description}</p>
