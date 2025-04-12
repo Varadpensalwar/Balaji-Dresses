@@ -27,7 +27,7 @@ const ProductCard = ({ product }) => {
 				<h5 className='text-xl font-semibold tracking-tight text-white'>{product.name}</h5>
 				<div className='mt-2 mb-5 flex items-center justify-between'>
 					<p>
-						<span className='text-3xl font-bold text-amber-200'>${product.price}</span>
+						<span className='text-3xl font-bold text-amber-200'>₹{product.price}</span>
 					</p>
 				</div>
 				<button
