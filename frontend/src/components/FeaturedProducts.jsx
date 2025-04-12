@@ -59,7 +59,7 @@ const FeaturedProducts = ({ featuredProducts }) => {
 											</p>
 											<button
 												onClick={() => addToCart(product)}
-												className='w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-2 px-4 rounded transition-colors duration-300 
+												className='w-full bg-emerald-300 hover:bg-emerald-200 text-white font-semibold py-2 px-4 rounded transition-colors duration-300 
 												flex items-center justify-center'
 											>
 												<ShoppingCart className='w-5 h-5 mr-2' />
@@ -75,7 +75,7 @@ const FeaturedProducts = ({ featuredProducts }) => {
 						onClick={prevSlide}
 						disabled={isStartDisabled}
 						className={`absolute top-1/2 -left-4 transform -translate-y-1/2 p-2 rounded-full transition-colors duration-300 ${
-							isStartDisabled ? "bg-gray-400 cursor-not-allowed" : "bg-emerald-600 hover:bg-emerald-500"
+							isStartDisabled ? "bg-gray-400 cursor-not-allowed" : "bg-emerald-300 hover:bg-emerald-200"
 						}`}
 					>
 						<ChevronLeft className='w-6 h-6' />
@@ -85,7 +85,7 @@ const FeaturedProducts = ({ featuredProducts }) => {
 						onClick={nextSlide}
 						disabled={isEndDisabled}
 						className={`absolute top-1/2 -right-4 transform -translate-y-1/2 p-2 rounded-full transition-colors duration-300 ${
-							isEndDisabled ? "bg-gray-400 cursor-not-allowed" : "bg-emerald-600 hover:bg-emerald-500"
+							isEndDisabled ? "bg-gray-400 cursor-not-allowed" : "bg-emerald-300 hover:bg-emerald-200"
 						}`}
 					>
 						<ChevronRight className='w-6 h-6' />
