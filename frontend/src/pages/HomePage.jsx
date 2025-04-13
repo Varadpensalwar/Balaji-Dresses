@@ -4,9 +4,10 @@ import { useProductStore } from "../stores/useProductStore";
 import FeaturedProducts from "../components/FeaturedProducts";
 
 const categories = [
-	{ href: "/jeans", name: "Jeans", imageUrl: "/jeans.jpg" },
-	{ href: "/t-shirts", name: "T-shirts", imageUrl: "/tshirts.jpg" },
 	{ href: "/saree", name: "saree", imageUrl: "/saree.jpg" },
+	{ href: "/shirts", name: "Shirts", imageUrl: "/shirts.jpg" },
+	{ href: "/pants", name: "pants", imageUrl: "/jeans.jpg" },
+	{ href: "/t-shirts", name: "T-shirts", imageUrl: "/tshirts.jpg" },
 	{ href: "/glasses", name: "Glasses", imageUrl: "/glasses.png" },
 	{ href: "/jackets", name: "Jackets", imageUrl: "/jackets.jpg" },
 	{ href: "/suits", name: "Suits", imageUrl: "/suits.jpg" },
