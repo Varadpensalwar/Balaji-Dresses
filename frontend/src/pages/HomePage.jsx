@@ -8,10 +8,10 @@ const categories = [
 	{ href: "/shirts", name: "Shirts", imageUrl: "/shirts.avif" },
 	{ href: "/pants", name: "Pants", imageUrl: "/jeans.jpg" },
 	{ href: "/t-shirts", name: "T-shirts", imageUrl: "/tshirts.jpg" },
-	{ href: "/glasses", name: "Night Pants", imageUrl: "/glasses.png" },
-	{ href: "/jackets", name: "Jackets", imageUrl: "/jackets.jpg" },
-	{ href: "/suits", name: "Suits", imageUrl: "/suits.jpg" },
-	{ href: "/bags", name: "Bags", imageUrl: "/bags.jpg" },
+	{ href: "/glasses", name: "Night Pants", imageUrl: "/Npants.jpeg" },
+	{ href: "/punjabidress", name: "Punjabi Dress", imageUrl: "/punjabiDress.jpeg" },
+	{ href: "/legginsandtop", name: "Leggings and Top", imageUrl: "/LeggingsandTop.webp" },
+	{ href: "/gown", name: "", imageUrl: "/gown.webp" },
 ];
 
 const HomePage = () => {
