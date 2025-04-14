@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { PlusCircle, Upload, Loader } from "lucide-react";
 import { useProductStore } from "../stores/useProductStore";
-const categories = ["jeans", "t-shirts", "saree","new_saree","Treding_Design","Exclusive","Affordable","Luxury","Bestsellers", "night_pant", "shirts", "pants",,"punjabi_dress","leggins_and_top","gown"];
+const categories = ["jeans", "t-shirts", "saree","new_saree","Treding_Design","Exclusive","Traditional","Affordable","Luxury","Bestsellers", "night_pant", "shirts", "pants",,"punjabi_dress","leggins_and_top","gown"];
 
 const CreateProductForm = () => {
 	const [newProduct, setNewProduct] = useState({
