@@ -8,7 +8,7 @@ const categories = [
 	{ href: "/shirts", name: "Shirts", imageUrl: "/shirts.avif" },
 	{ href: "/pants", name: "Pants", imageUrl: "/jeans.jpg" },
 	{ href: "/t-shirts", name: "T-shirts", imageUrl: "/tshirts.jpg" },
-	{ href: "/glasses", name: "Night Pants", imageUrl: "/NPants.jpeg" },
+	{ href: "/glasses", name: "Night Pants", imageUrl: "/NPants.jpg" },
 	{ href: "/punjabidress", name: "Punjabi Dress", imageUrl: "/punjabiDress.jpeg" },
 	{ href: "/legginsandtop", name: "Leggings and Tops", imageUrl: "/LeggingsandTop.webp" },
 	{ href: "/gown", name: "Gowns", imageUrl: "/gown.webp" },
