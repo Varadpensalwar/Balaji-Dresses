@@ -8,7 +8,7 @@ const categories = [
 	{ href: "/saree", name: "Saree", imageUrl: "/Saree (2).jpg" },
 	{ href: "/Exclusive", name: "Saree [Exclusive]", imageUrl: "/Exclusive.jpeg" },
 	{ href: "/Bestsellers", name: "Saree [Bestsellers]", imageUrl: "/BestSellers.jpeg" },
-	{ href: "/Traditional", name: "Saree [Bestsellers]", imageUrl: "/BestSellers.jpeg" },
+	{ href: "/Traditional", name: "Saree [Traditional]", imageUrl: "/traditional.jpg" },
 	{ href: "/new_saree", name: "Saree [New]", imageUrl: "/saree_new.jpeg" },
 	{ href: "/Treding_Design", name: "Saree [Trending Design]", imageUrl: "/Saree_trending_design.jpg" },
 	{ href: "/Affordable", name: "Saree [Affordable]", imageUrl: "/Sarees.jpg" },
