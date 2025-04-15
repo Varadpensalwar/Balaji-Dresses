@@ -5,7 +5,7 @@ import FeaturedProducts from "../components/FeaturedProducts";
 
 const categories = [
 	{ href: "/Luxury", name: "Saree [Expensive]", imageUrl: "/saree.jpg" },
-	{ href: "/saree", name: "Saree", imageUrl: "/Saree (2).jpg" },
+	{ href: "/saree", name: "Saree", imageUrl: "/CpSaree (2).jpg" },
 	{ href: "/Exclusive", name: "Saree [Exclusive]", imageUrl: "/traditional.jpg" },
 	{ href: "/Traditional", name: "Saree [Traditional]", imageUrl: "/Exclusive.jpeg" },
 	{ href: "/new_saree", name: "Saree [New]", imageUrl: "/saree_new.jpeg" },
