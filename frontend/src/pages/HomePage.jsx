@@ -11,7 +11,7 @@ const categories = [
 	{ href: "/new_saree", name: "Saree [New]", imageUrl: "/saree_new.jpeg" },
 	{ href: "/Bestseller", name: "Saree [Bestseller]", imageUrl: "/BestSellers.jpeg" },
 	{ href: "/Treding_Design", name: "Saree [Trending Design]", imageUrl: "/Saree_trending_design.jpg" },
-	{ href: "/Affordable", name: "Saree [Affordable]", imageUrl: "/CSaree (2).jpg" },
+	{ href: "/Affordable", name: "Saree [Affordable]", imageUrl: "/saree_1.png" },
 	{ href: "/shirts", name: "Shirts", imageUrl: "/shirts.avif" },
 	{ href: "/pants", name: "Pants", imageUrl: "/jeans.jpg" },
 	{ href: "/t-shirts", name: "T-shirts", imageUrl: "/tshirts.jpg" },
