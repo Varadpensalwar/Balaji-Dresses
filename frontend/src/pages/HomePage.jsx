@@ -37,6 +37,7 @@ const HomePage = () => {
 				<p className='text-center text-xl text-gray-300 mb-12'>
 				New products added to our collection every week, so stay tuned!
 				</p>
+				<h6>IMPORTANT NOTICE: All products displayed are for showcase purposes only. Online orders are not accepted. Please visit our shop to make a purchase.</h6>
 
 				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
 					{categories.map((category) => (
