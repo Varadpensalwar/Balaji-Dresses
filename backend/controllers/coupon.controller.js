@@ -2,7 +2,7 @@ import Coupon from "../models/coupon.model.js";
 
 export const getCoupon = async (req, res) => {
 	try {
-		const coupon = await Coupon.findOne({ userId: req.user._id, isActive: true });
+		const coupon = await Coupon.findOne({ isActive: true });
 		res.json(coupon || null);
 	} catch (error) {
 		console.log("Error in getCoupon controller", error.message);
@@ -13,7 +13,7 @@ export const getCoupon = async (req, res) => {
 export const validateCoupon = async (req, res) => {
 	try {
 		const { code } = req.body;
-		const coupon = await Coupon.findOne({ code: code, userId: req.user._id, isActive: true });
+		const coupon = await Coupon.findOne({ code: code, isActive: true });
 
 		if (!coupon) {
 			return res.status(404).json({ message: "Coupon not found" });
